@@ -57,12 +57,17 @@
   align-items: center;
 }
 
-.mid-header{
-  font-size: 2em;
-}
-
 .mid-sub-header{
   font-size: 1em;
+  text-align: center;
+}
+
+#interests-header{
+  margin-top: -15px;
+  font-size: 2em;
+}
+#tech-header{
+  font-size: 2em;
 }
 
 #computer{
@@ -73,4 +78,8 @@
 #brain{
   width: 200px;
   height: 200px;
+}
+li{
+  list-style-type: none;
+  text-align: center;
 }
