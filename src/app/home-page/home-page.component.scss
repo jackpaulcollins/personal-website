@@ -1,0 +1,76 @@
+*{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.profile-picture{
+  border-radius: 50%;
+  height: 20vh;
+  width: 22vw;
+  margin: 5% auto 8% auto;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.head{
+  display: flex;
+  flex-direction: column;
+}
+
+.text{
+  text-align: center;
+  .hi{
+    margin: 10% 0 0 0;
+    font-size: 2em;
+  }
+  .sub-text{
+    font-size: 1.5em;
+  }
+}
+
+
+.content-area{
+  margin: 10% 0 0 0;
+  display: flex;
+  justify-content: space-around;
+  border: solid lightgray 1px;
+  border-radius: 10px;
+  height: 70vh;
+}
+
+.left-column{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.right-column{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mid-header{
+  font-size: 2em;
+}
+
+.mid-sub-header{
+  font-size: 1em;
+}
+
+#computer{
+  width: 200px;
+  height: 200px;
+}
+
+#brain{
+  width: 200px;
+  height: 200px;
+}
